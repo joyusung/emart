@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>헬로! 이마트</title>
+    <!-- swiper css CDN으로 연결 -->
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <!-- favicon -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/icon">
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- swiper js를 CDN으로 연결 -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
     <div class="wrap">
@@ -71,8 +77,22 @@
             </div>
         </header>
         <section class="visual">
-            <!-- 슬라이드(제이쿼리) -->
-            <img src="img/visual1.jpg" alt="쇼핑을 쇼핑답게">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="#">
+                        <img src="img/visual1.jpg" alt="쇼핑을 쇼핑답게">
+                    </a></div>
+                    <div class="swiper-slide"><a href="#">
+                        <img src="img/visual2.jpg" alt="출석">
+                    </a></div>
+                    <div class="swiper-slide"><a href="#">
+                        <img src="img/visual3.jpg" alt="스템프">
+                    </a></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
         <section class="banner">
             <div class="center_box">

@@ -144,6 +144,11 @@ section.visual{
     z-index: 10;;
     margin: 0;
 }
+section.visual .center_box{
+    width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+}
 section.visual .swiper-wrapper{
     width: 100%;
     height: 570px;
@@ -151,13 +156,6 @@ section.visual .swiper-wrapper{
 .swiper{
     width: 100%;
     height: 100%;
-}
-.swiper-button-next,
-.swiper-button-prev{
-    color: #d39b01;
-}
-.swiper-pagination-bullet{
-    background-color: #d39b01;
 }
 section.banner .movie{
     float: left;

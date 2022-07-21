@@ -1,7 +1,4 @@
 $(function(){
-    $('a').click(function(e){
-        e.preventDefault();
-    });
     var swiper = new Swiper(".mySwiper", {
         spaceBetween: 30,
         centeredSlides: true,
